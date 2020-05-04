@@ -553,26 +553,26 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C07023130QXKXPG1M</string>
+			<string>C02940600GUKGQG1F</string>
 			<key>ROM</key>
 			<data>zmltayQR</data>
 			<key>SystemProductName</key>
-			<string>Macmini8,1</string>
+			<string>iMac19,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C07CT0ZXJYVX</string>
+			<string>C02ZHFYJJWDW</string>
 			<key>SystemUUID</key>
-			<string>A5F67346-6F51-4BA5-AD7C-8A860D6B2411</string>
+			<string>A298296B-D975-4882-80A7-1B88A231A9C1</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>BID</key>
-			<string>Mac-7BA5B2DFE22DDD8C</string>
+			<string>Mac-63001698E7A34814</string>
 			<key>FirmwareFeatures</key>
-			<data>ZvSP/QAAAAA=</data>
+			<data>/Y/1dgAAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>f//f/wAAAAA=</data>
+			<data>/9//fwAAAAA=</data>
 			<key>MLB</key>
-			<string>C07023130QXKXPG1M</string>
+			<string>C02940600GUKGQG1F</string>
 			<key>ROM</key>
 			<data>zmltayQR</data>
 		</dict>
