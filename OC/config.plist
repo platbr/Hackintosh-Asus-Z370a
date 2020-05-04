@@ -48,7 +48,8 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array>
+		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -147,7 +148,8 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
@@ -195,7 +197,7 @@
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
-				<string>onboard-1</string>
+				<string>onboard-2</string>
 				<key>layout-id</key>
 				<data>FQAAAA==</data>
 				<key>model</key>
@@ -222,21 +224,17 @@
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-type</key>
-				<data>ACAAAA==</data>
+				<data>BAAAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel UHD Graphics 630 (Desktop)</string>
 			</dict>
 		</dict>
-		<key>Block</key>
-		<dict/>
 	</dict>
 	<key>Kernel</key>
 	<dict>
@@ -260,7 +258,7 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>VirtualSMC-1.1.3.kext</string>
+				<string>VirtualSMC-1.1.2.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -292,13 +290,29 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>AppleALC-1.4.9.kext</string>
+				<string>AppleALC-1.4.8.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IntelMausi-1.0.2.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelMausi</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -354,25 +368,10 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>IntelMausiEthernet-2.5.1d1.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelMausiEthernet</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array>
+		</array>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -381,7 +380,8 @@
 			<data></data>
 		</dict>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -417,7 +417,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -429,11 +430,11 @@
 			<key>HideSelf</key>
 			<true/>
 			<key>PickerAttributes</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -457,7 +458,8 @@
 			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
-		<array/>
+		<array>
+		</array>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -476,7 +478,8 @@
 			<string>Optional</string>
 		</dict>
 		<key>Tools</key>
-		<array/>
+		<array>
+		</array>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
@@ -492,7 +495,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-wegnoegpu igfxonln=1</string>
+				<string>igfxonln=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -553,26 +556,26 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C07023130QXKXPG1M</string>
+			<string>C02940600GUKGQG1F</string>
 			<key>ROM</key>
 			<data>zmltayQR</data>
 			<key>SystemProductName</key>
-			<string>Macmini8,1</string>
+			<string>iMac19,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C07CT0ZXJYVX</string>
+			<string>C02ZHFYJJWDW</string>
 			<key>SystemUUID</key>
-			<string>A5F67346-6F51-4BA5-AD7C-8A860D6B2411</string>
+			<string>A298296B-D975-4882-80A7-1B88A231A9C1</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>BID</key>
-			<string>Mac-7BA5B2DFE22DDD8C</string>
+			<string>Mac-63001698E7A34814</string>
 			<key>FirmwareFeatures</key>
-			<data>ZvSP/QAAAAA=</data>
+			<data>/Y/1dgAAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>f//f/wAAAAA=</data>
+			<data>/9//fwAAAAA=</data>
 			<key>MLB</key>
-			<string>C07023130QXKXPG1M</string>
+			<string>C02940600GUKGQG1F</string>
 			<key>ROM</key>
 			<data>zmltayQR</data>
 		</dict>
@@ -659,6 +662,37 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+		</dict>
+		<key>Protocols</key>
+		<dict>
+			<key>AppleAudio</key>
+			<false/>
+			<key>AppleBootPolicy</key>
+			<false/>
+			<key>AppleDebugLog</key>
+			<false/>
+			<key>AppleEvent</key>
+			<false/>
+			<key>AppleImageConversion</key>
+			<false/>
+			<key>AppleKeyMap</key>
+			<false/>
+			<key>AppleSmcIo</key>
+			<false/>
+			<key>AppleUserInterfaceTheme</key>
+			<false/>
+			<key>DataHub</key>
+			<false/>
+			<key>DeviceProperties</key>
+			<false/>
+			<key>FirmwareVolume</key>
+			<false/>
+			<key>HashServices</key>
+			<false/>
+			<key>OSInfo</key>
+			<false/>
+			<key>UnicodeCollation</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
