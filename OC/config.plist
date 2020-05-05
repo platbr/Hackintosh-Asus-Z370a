@@ -492,7 +492,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-wegnoegpu igfxonln=1</string>
+				<string>igfxonln=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -550,31 +550,99 @@
 	<dict>
 		<key>Automatic</key>
 		<true/>
+		<key>DataHub</key>
+		<dict>
+			<key>BoardProduct</key>
+			<string>Mac-63001698E7A34814</string>
+			<key>SystemProductName</key>
+			<string>iMac19,2</string>
+			<key>SystemSerialNumber</key>
+			<string>C02DDSZSJWDW</string>
+			<key>SystemUUID</key>
+			<string>CEDE3195-8344-4815-895D-7851517E40A8</string>
+		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C02940600GUKGQG1F</string>
+			<string>C02037303J9KGQGA8</string>
 			<key>ROM</key>
 			<data>zmltayQR</data>
 			<key>SystemProductName</key>
 			<string>iMac19,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02ZHFYJJWDW</string>
+			<string>C02DDSZSJWDW</string>
 			<key>SystemUUID</key>
-			<string>A298296B-D975-4882-80A7-1B88A231A9C1</string>
+			<string>CEDE3195-8344-4815-895D-7851517E40A8</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>BID</key>
 			<string>Mac-63001698E7A34814</string>
 			<key>FirmwareFeatures</key>
-			<data>/Y/1dgAAAAA=</data>
+			<data>dvWP/QAAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>/9//fwAAAAA=</data>
+			<data>f//f/wAAAAA=</data>
 			<key>MLB</key>
-			<string>C02940600GUKGQG1F</string>
+			<string>C02037303J9KGQGA8</string>
 			<key>ROM</key>
 			<data>zmltayQR</data>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BIOSReleaseDate</key>
+			<string>02/17/2020</string>
+			<key>BIOSVendor</key>
+			<string></string>
+			<key>BIOSVersion</key>
+			<string>1037.100.345.0.0</string>
+			<key>BoardAssetTag</key>
+			<string></string>
+			<key>BoardLocationInChassis</key>
+			<string>Part Component</string>
+			<key>BoardManufacturer</key>
+			<string></string>
+			<key>BoardProduct</key>
+			<string>Mac-63001698E7A34814</string>
+			<key>BoardSerialNumber</key>
+			<string>C02037303J9KGQGA8</string>
+			<key>BoardType</key>
+			<integer>10</integer>
+			<key>BoardVersion</key>
+			<string>1.0</string>
+			<key>ChassisAssetTag</key>
+			<string>iMac-Aluminum</string>
+			<key>ChassisManufacturer</key>
+			<string></string>
+			<key>ChassisSerialNumber</key>
+			<string>C02DDSZSJWDW</string>
+			<key>ChassisType</key>
+			<integer>9</integer>
+			<key>ChassisVersion</key>
+			<string>Mac-63001698E7A34814</string>
+			<key>FirmwareFeatures</key>
+			<data>dvWP/QAAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>f//f/wAAAAA=</data>
+			<key>MemoryFormFactor</key>
+			<integer>0</integer>
+			<key>PlatformFeature</key>
+			<integer>34</integer>
+			<key>ProcessorType</key>
+			<integer>0</integer>
+			<key>SystemFamily</key>
+			<string>iMac</string>
+			<key>SystemManufacturer</key>
+			<string></string>
+			<key>SystemProductName</key>
+			<string>iMac19,2</string>
+			<key>SystemSKUNumber</key>
+			<string>Mac-63001698E7A34814</string>
+			<key>SystemSerialNumber</key>
+			<string>C02DDSZSJWDW</string>
+			<key>SystemUUID</key>
+			<string>CEDE3195-8344-4815-895D-7851517E40A8</string>
+			<key>SystemVersion</key>
+			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -600,7 +668,7 @@
 			<key>MinimumVolume</key>
 			<integer>10</integer>
 			<key>PlayChime</key>
-			<false/>
+			<true/>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
@@ -659,6 +727,37 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+		</dict>
+		<key>Protocols</key>
+		<dict>
+			<key>AppleAudio</key>
+			<false/>
+			<key>AppleBootPolicy</key>
+			<false/>
+			<key>AppleDebugLog</key>
+			<false/>
+			<key>AppleEvent</key>
+			<false/>
+			<key>AppleImageConversion</key>
+			<false/>
+			<key>AppleKeyMap</key>
+			<false/>
+			<key>AppleSmcIo</key>
+			<false/>
+			<key>AppleUserInterfaceTheme</key>
+			<false/>
+			<key>DataHub</key>
+			<false/>
+			<key>DeviceProperties</key>
+			<false/>
+			<key>FirmwareVolume</key>
+			<false/>
+			<key>HashServices</key>
+			<false/>
+			<key>OSInfo</key>
+			<false/>
+			<key>UnicodeCollation</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
