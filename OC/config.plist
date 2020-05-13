@@ -485,7 +485,42 @@
 	<key>NVRAM</key>
 	<dict>
 		<key>Add</key>
-		<dict/>
+		<dict>
+			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+			<dict>
+				<key>SystemAudioVolume</key>
+				<data>QQ==</data>
+				<key>csr-active-config</key>
+				<data>5wMAAA==</data>
+				<key>fmm-computer-name</key>
+				<data>d2FnbmVy4oCZcyBpTWFj</data>
+				<key>security-mode</key>
+				<string>none</string>
+			</dict>
+			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+			<dict>
+				<key>ExtendedFirmwareFeatures</key>
+				<data>9Y/9AAAAAA==</data>
+				<key>ExtendedFirmwareFeaturesMask</key>
+				<data>f//f/wAAAAA=</data>
+				<key>FirmwareFeatures</key>
+				<data>9Y/9</data>
+				<key>FirmwareFeaturesMask</key>
+				<data>f//f/w==</data>
+				<key>HW_BID</key>
+				<string>Mac-63001698E7A34814</string>
+				<key>HW_MLB</key>
+				<string>C02037303J9KGQGA8</string>
+				<key>HW_ROM</key>
+				<data>zhE=</data>
+				<key>MLB</key>
+				<string>C02037303J9KGQGA8</string>
+				<key>ROM</key>
+				<data>zhE=</data>
+				<key>UIScale</key>
+				<data>AQ==</data>
+			</dict>
+		</dict>
 		<key>Block</key>
 		<dict/>
 		<key>LegacyEnable</key>
