@@ -122,12 +122,8 @@
 	<dict>
 		<key>MmioWhitelist</key>
 		<array/>
-		<key>Patch</key>
-		<array/>
 		<key>Quirks</key>
 		<dict>
-			<key>AllowRelocationBlock</key>
-			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -232,6 +228,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>USBPorts-AsusZ370A200505.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>USBInjectAll.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -239,42 +253,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBInjectAll</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>IntelSnowMausi.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelSnowMausi</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -556,8 +534,6 @@
 			<false/>
 			<key>PickerMode</key>
 			<string>Apple</string>
-			<key>PickerVariant</key>
-			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -598,8 +574,6 @@
 			<integer>0</integer>
 			<key>AuthRestart</key>
 			<false/>
-			<key>BlacklistAppleUpdate</key>
-			<false/>
 			<key>BootProtect</key>
 			<string>None</string>
 			<key>DmgLoading</key>
@@ -614,10 +588,10 @@
 			<data></data>
 			<key>PasswordSalt</key>
 			<data></data>
-			<key>ScanPolicy</key>
-			<integer>0</integer>
 			<key>SecureBootModel</key>
 			<string>Default</string>
+			<key>ScanPolicy</key>
+			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -636,10 +610,6 @@
 				<string>BootKicker</string>
 				<key>Path</key>
 				<string>BootKicker.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -654,10 +624,6 @@
 				<string>ChipTune</string>
 				<key>Path</key>
 				<string>ChipTune.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -672,10 +638,6 @@
 				<string>CleanNvram</string>
 				<key>Path</key>
 				<string>CleanNvram.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -690,10 +652,6 @@
 				<string>GopStop</string>
 				<key>Path</key>
 				<string>GopStop.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -708,10 +666,6 @@
 				<string>HdaCodecDump</string>
 				<key>Path</key>
 				<string>HdaCodecDump.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -726,10 +680,6 @@
 				<string>KeyTester</string>
 				<key>Path</key>
 				<string>KeyTester.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -744,10 +694,6 @@
 				<string>MmapDump</string>
 				<key>Path</key>
 				<string>MmapDump.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -762,10 +708,6 @@
 				<string>OpenControl</string>
 				<key>Path</key>
 				<string>OpenControl.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -780,10 +722,6 @@
 				<string>OpenShell</string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -798,10 +736,6 @@
 				<string>ResetSystem</string>
 				<key>Path</key>
 				<string>ResetSystem.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -816,10 +750,6 @@
 				<string>RtcRw</string>
 				<key>Path</key>
 				<string>RtcRw.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -834,10 +764,6 @@
 				<string>VerifyMsrE2</string>
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -954,12 +880,12 @@
 			<string>C02037303J9KGQGA8</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>ROM</key>
 			<data>zmltayQR</data>
 			<key>SpoofVendor</key>
 			<true/>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
@@ -979,8 +905,6 @@
 			<string>C02037303J9KGQGA8</string>
 			<key>ROM</key>
 			<data>zmltayQR</data>
-			<key>SystemUUID</key>
-			<string></string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1078,9 +1002,7 @@
 			<key>MinimumVolume</key>
 			<integer>10</integer>
 			<key>PlayChime</key>
-			<string></string>
-			<key>SetupDelay</key>
-			<integer>0</integer>
+			<true/>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
@@ -1182,6 +1104,8 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>DeduplicateBootOrder</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
