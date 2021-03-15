@@ -510,7 +510,7 @@
 			<key>DisableIoMapper</key>
 			<false/>
 			<key>DisableLinkeditJettison</key>
-			<false/>
+			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
 			<key>ExtendBTFeatureFlags</key>
@@ -529,6 +529,8 @@
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -556,6 +558,10 @@
 			<string>Auto</string>
 			<key>HideAuxiliary</key>
 			<false/>
+			<key>LauncherOption</key>
+			<string>Disabled</string>
+			<key>LauncherPath</key>
+			<string>Default</string>
 			<key>PickerAttributes</key>
 			<integer>0</integer>
 			<key>PickerAudioAssist</key>
@@ -606,8 +612,6 @@
 			<false/>
 			<key>BlacklistAppleUpdate</key>
 			<false/>
-			<key>BootProtect</key>
-			<string>None</string>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
@@ -956,6 +960,8 @@
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>MLB</key>
 			<string>C02037303J9KGQGA8</string>
 			<key>ProcessorType</key>
@@ -985,6 +991,8 @@
 			<string>C02037303J9KGQGA8</string>
 			<key>ROM</key>
 			<data>zmltayQR</data>
+			<key>SystemSerialNumber</key>
+			<string></string>
 			<key>SystemUUID</key>
 			<string></string>
 		</dict>
@@ -1053,6 +1061,8 @@
 		<true/>
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
+		<key>UseRawUuidEncoding</key>
+		<false/>
 	</dict>
 	<key>UEFI</key>
 	<dict>
@@ -1084,7 +1094,9 @@
 			<key>MinimumVolume</key>
 			<integer>10</integer>
 			<key>PlayChime</key>
-			<string></string>
+			<string>Auto</string>
+			<key>ResetTrafficClass</key>
+			<false/>
 			<key>SetupDelay</key>
 			<integer>0</integer>
 			<key>VolumeAmplifier</key>
@@ -1105,8 +1117,6 @@
 			<false/>
 			<key>KeyForgetThreshold</key>
 			<integer>5</integer>
-			<key>KeyMergeThreshold</key>
-			<integer>2</integer>
 			<key>KeySupport</key>
 			<true/>
 			<key>KeySupportMode</key>
@@ -1129,6 +1139,8 @@
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>ForceResolution</key>
+			<false/>
+			<key>GopPassThrough</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
@@ -1188,6 +1200,10 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>ActivateHpetSupport</key>
+			<false/>
+			<key>DisableSecurityPolicy</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
